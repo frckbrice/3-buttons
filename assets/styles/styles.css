@@ -2,7 +2,7 @@
 
 
 #header{
-    background:linear-gradient(rgba(0,0,0,0),#660096),  url(images/backg3.webp);
+    background:linear-gradient(rgba(0,0,0,0),#660096),  url(/assets/images/back1.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
