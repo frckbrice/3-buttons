@@ -8,3 +8,16 @@
     height: 100vh;
    
 }
+.body-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.body-text h1{
+    font-size: 60px;
+    font-family: 'Kaushan Script', monospace;
+}
+.body-text p{
+    font-size: 20px;
+    font-style:italic;
+}
