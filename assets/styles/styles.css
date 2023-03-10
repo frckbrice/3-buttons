@@ -1,31 +1,31 @@
 *{  
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-   
-   
+    font-family: 'Poppins', sans-serif;  
 }
 
-
+/* --header section--*/ 
 #header{
    /* background:linear-gradient(rgba(0,96,8,0.2),#c6a0db), url(/assets/images/back1.png);*/
         background-image:url(/home/avom/Documents/3_but/assets/images/back1.png);
         background-position: center;
-        position: block;
-        color:black;     
-       background-repeat:no-repeat;
-       padding:70px 0 70px;
-       width:100%;
-       height: 300px;;
-       background-size: cover;
-      
+        background-repeat:no-repeat;
+        width:100%;
+        height: 301px;
+        background-size: cover;    
 }
 
+/* --body section--*/ 
+#body{
+    width: 100%;
+    padding: 70px 0 70px;
+    background:rgba(0,96,8,0.2);    
+}
 .body-text{
     margin-top: 0;
     text-align: center;
     color: #000;
-    padding-top: 180px;
+    padding: 70px 0 70px 0;
 }
 .body-text h1{
     font-size: 60px;
@@ -36,27 +36,21 @@
     font-style:italic;
 }
 
-#body{
+ /* --footer section--*/  
+#cta{
     width: 100%;
     padding: 70px 0 70px;
-    background:rgba(0,96,8,0.2);
-    background: size a 70px;;
-    
+     /* border: 3px solid #3CC;   -- ceci permet d'ajouter une ligne de bordure à la section*/      
 }
-#cta{
-    width: 50%;
-    padding: 70px 0 70px;
-      
+.container { 
+   /* border: 3px solid #3CC;   -- ceci permet d'ajouter une ligne de bordure à la div*/  
+    margin: 10px 10px;
+    padding: 70px 0 70px 45%;
+    justify-content: center;   
 }
-.container {
-    height: 30px;
-    
-    border: 5px solid green;
-}
-vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-10%);
-    transform: translateY(-10%);
+button {
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    font-size: 20px;
+    background: rgba(0,96,8,0.2);;    
 }
