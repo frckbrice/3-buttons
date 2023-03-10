@@ -7,7 +7,7 @@
 /* --header section--*/ 
 #header{
    /* background:linear-gradient(rgba(0,96,8,0.2),#c6a0db), url(/assets/images/back1.png);*/
-        background-image:url(/assets/images/back1.png);
+        background-image:url("https://img.sm360.ca/images/article/groupe-dallaire/80255//cadillac-escalade-2021-2-1603384289486.png");
         background-position: center;
         background-repeat:no-repeat;
         width:100%;
